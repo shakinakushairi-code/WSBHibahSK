@@ -288,17 +288,17 @@ footer strong{color:var(--ink-70);font-weight:500}
     </div>
 
     <div class="q hidden" id="vehWrap">
-      <label data-en="Roughly what return does that money earn each year?" data-ms="Lebih kurang berapa pulangan wang itu setahun?">Roughly what return does that money earn each year?</label>
-      <p class="hint" data-en="Pick the band that matches your return. The instruments listed are landmarks, not a menu — if yours is not there, choose the band closest to what you actually earn." data-ms="Pilih julat yang menepati pulangan anda. Instrumen yang disenaraikan hanyalah panduan, bukan senarai pilihan — jika instrumen anda tiada di situ, pilih julat yang paling hampir dengan pulangan sebenar anda.">Pick the band that matches your return. The instruments listed are landmarks, not a menu — if yours is not there, choose the band closest to what you actually earn.</p>
+      <label data-en="Where would the peruntukan be held?" data-ms="Di mana peruntukan itu akan disimpan?">Where would the peruntukan be held?</label>
+      <p class="hint" data-en="Only certain instruments can be formally earmarked for this purpose. Pick the one you would use — the expected return decides whether the fund keeps pace with rising legal costs." data-ms="Hanya instrumen tertentu boleh diperuntukkan secara rasmi untuk tujuan ini. Pilih yang akan anda gunakan — pulangan dijangka menentukan sama ada dana itu seiring dengan kenaikan kos guaman.">Only certain instruments can be formally earmarked for this purpose. Pick the one you would use — the expected return decides whether the fund keeps pace with rising legal costs.</p>
       <select id="q_veh" onchange="toggleCustomRate()">
-        <option value="0.5" data-en="About 0.5% — current account, savings account, cash, fixed-sum takaful" data-ms="Sekitar 0.5% — akaun semasa, akaun simpanan, tunai, takaful jumlah tetap">About 0.5% — current account, savings account, cash, fixed-sum takaful</option>
-        <option value="2.5" data-en="About 2.5% — fixed deposit, Tabung Haji, money market or sukuk funds" data-ms="Sekitar 2.5% — simpanan tetap, Tabung Haji, dana pasaran wang atau sukuk">About 2.5% — fixed deposit, Tabung Haji, money market or sukuk funds</option>
-        <option value="5.0" selected data-en="About 5% — ASB / ASNB, balanced funds, conservative unit trusts" data-ms="Sekitar 5% — ASB / ASNB, dana seimbang, unit amanah konservatif">About 5% — ASB / ASNB, balanced funds, conservative unit trusts</option>
-        <option value="7.0" data-en="About 7% — equity unit trusts, Shariah ETFs, REITs, diversified shares" data-ms="Sekitar 7% — unit amanah ekuiti, ETF patuh Syariah, REIT, saham terpelbagai">About 7% — equity unit trusts, Shariah ETFs, REITs, diversified shares</option>
-        <option value="9.0" data-en="About 9% — concentrated shares, higher-risk growth portfolios" data-ms="Sekitar 9% — saham tertumpu, portfolio pertumbuhan berisiko tinggi">About 9% — concentrated shares, higher-risk growth portfolios</option>
-        <option value="custom" data-en="I know my own figure — let me enter it" data-ms="Saya tahu angka saya sendiri — biar saya masukkan">I know my own figure — let me enter it</option>
+        <option value="2.5" data-en="Tabung Haji — around 2.5% to 3%" data-ms="Tabung Haji — sekitar 2.5% hingga 3%">Tabung Haji — around 2.5% to 3%</option>
+        <option value="5.0" selected data-en="Kasihku (ASNB / ASB) — around 5%" data-ms="Kasihku (ASNB / ASB) — sekitar 5%">Kasihku (ASNB / ASB) — around 5%</option>
+        <option value="5.5" data-en="Unit amanah, balanced or conservative — around 5% to 6%" data-ms="Unit amanah, seimbang atau konservatif — sekitar 5% hingga 6%">Unit amanah, balanced or conservative — around 5% to 6%</option>
+        <option value="7.0" data-en="Unit amanah, equity — around 7%" data-ms="Unit amanah, ekuiti — sekitar 7%">Unit amanah, equity — around 7%</option>
+        <option value="0" data-en="Takaful (Isti'man) — fixed benefit, no growth" data-ms="Takaful (Isti'man) — manfaat tetap, tiada pertumbuhan">Takaful (Isti'man) — fixed benefit, no growth</option>
+        <option value="custom" data-en="I know my fund's actual return — let me enter it" data-ms="Saya tahu pulangan sebenar dana saya — biar saya masukkan">I know my fund's actual return — let me enter it</option>
       </select>
-      <p class="hint" style="margin-top:9px" data-en="Higher returns carry higher volatility, and this money is needed on a date nobody can predict. Since it funds an Islamic estate instrument, it should also sit in a Shariah-compliant vehicle." data-ms="Pulangan lebih tinggi membawa turun naik yang lebih tinggi, dan wang ini diperlukan pada tarikh yang tiada siapa dapat jangka. Memandangkan ia membiayai instrumen pusaka Islam, ia juga sepatutnya berada dalam instrumen yang patuh Syariah.">Higher returns carry higher volatility, and this money is needed on a date nobody can predict. Since it funds an Islamic estate instrument, it should also sit in a Shariah-compliant vehicle.</p>
+      <p class="hint" style="margin-top:9px" data-en="These four are the sources named in the WSB price list: Tabung Haji, Unit Amanah, Kasihku (ASNB) and Takaful. If your money currently sits somewhere else — a fixed deposit, EPF, shares, ETFs, gold, property rental — it cannot be earmarked where it is, because the peruntukan requires a Pra Hibah document over that specific account. It would need to be moved into one of the four first, so choose the option matching where it would go, not where it sits today. Other instruments may be considered on confirmation with WSB." data-ms="Empat ini adalah sumber yang dinyatakan dalam senarai harga WSB: Tabung Haji, Unit Amanah, Kasihku (ASNB) dan Takaful. Jika wang anda kini berada di tempat lain — simpanan tetap, KWSP, saham, ETF, emas, sewa hartanah — ia tidak boleh diperuntukkan di situ, kerana peruntukan memerlukan dokumen Pra Hibah ke atas akaun tersebut. Ia perlu dipindahkan ke salah satu daripada empat itu dahulu, jadi pilih pilihan yang menepati ke mana ia akan dipindahkan, bukan di mana ia berada hari ini. Instrumen lain mungkin dipertimbangkan setelah disahkan dengan WSB.">These four are the sources named in the WSB price list: Tabung Haji, Unit Amanah, Kasihku (ASNB) and Takaful. If your money currently sits somewhere else — a fixed deposit, EPF, shares, ETFs, gold, property rental — it cannot be earmarked where it is, because the peruntukan requires a Pra Hibah document over that specific account. It would need to be moved into one of the four first, so choose the option matching where it would go, not where it sits today. Other instruments may be considered on confirmation with WSB.</p>
     </div>
 
     <div class="q hidden" id="rateWrap">
@@ -808,8 +808,11 @@ function renderChecklist(a){
   /* Peruntukan instrument */
   if (a.rec === 'ama'){
     h += chk('warn', txt('Set up the peruntukan instrument', 'Sediakan instrumen peruntukan'),
-      txt('The fund must be formally earmarked through an accepted source — Tabung Haji, ASNB, unit trust or takaful benefit — together with a Surat Ikatan Amanah. An informal intention to keep the money aside is not enough.',
-          'Dana mesti diperuntukkan secara rasmi melalui sumber yang diterima — Tabung Haji, ASNB, unit amanah atau manfaat takaful — bersama Surat Ikatan Amanah. Niat tidak rasmi untuk menyimpan wang itu tidak memadai.'));
+      txt('The fund must sit in one of four accepted sources — Tabung Haji, Unit Amanah, Kasihku (ASNB) or Takaful — and be formally earmarked through a Surat Ikatan Amanah. An informal intention to keep the money aside is not enough.',
+          'Dana mesti berada dalam salah satu daripada empat sumber yang diterima — Tabung Haji, Unit Amanah, Kasihku (ASNB) atau Takaful — dan diperuntukkan secara rasmi melalui Surat Ikatan Amanah. Niat tidak rasmi untuk menyimpan wang itu tidak memadai.'));
+    h += chk('warn', txt('Budget for a second Hibah document', 'Ambil kira kos dokumen Hibah kedua'),
+      txt('A Hibah must also be made over the account holding the peruntukan itself, which carries its own service charge on top of the property fee shown above. Ask for both lines on your quotation so you are comparing the full cost of Hibah Amanah against Komprehensif, not just part of it.',
+          'Hibah juga perlu dibuat ke atas akaun yang memegang peruntukan tersebut, dan ia mempunyai caj perkhidmatan tersendiri di samping yuran hartanah di atas. Minta kedua-dua baris dalam sebut harga anda supaya anda membandingkan kos penuh Hibah Amanah dengan Komprehensif, bukan sebahagian sahaja.'));
     h += chk('info', txt('Keep the fund intact', 'Kekalkan dana tersebut'),
       txt('Nothing stops you withdrawing that money later, and nothing warns your beneficiary if you do. If the fund is drained, the structure quietly reverts to Pra Hibah with a higher fee already paid.',
           'Tiada apa menghalang anda mengeluarkan wang itu kemudian, dan tiada amaran kepada penerima jika anda berbuat demikian. Jika dana dihabiskan, struktur ini kembali menjadi Pra Hibah sedangkan yuran lebih tinggi sudah dibayar.'));
@@ -870,8 +873,7 @@ function reset(){
   for (var i = 0; i < radios.length; i++){ radios[i].checked = false; }
   document.getElementById('q_geran').selectedIndex = 0;
   document.getElementById('q_veh').value = '5.0';
-  document.getElementById('q_rate').value = '';
-  document.getElementById('mrttWrap').classList.add('hidden');
+  document.getElementById('q_rate').value = '';  document.getElementById('mrttWrap').classList.add('hidden');
   document.getElementById('vehWrap').classList.add('hidden');
   document.getElementById('rateWrap').classList.add('hidden');
   document.getElementById('err').style.display = 'none';
